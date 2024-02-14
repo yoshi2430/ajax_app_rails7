@@ -8,6 +8,6 @@ function post (){
     XHR.responseType = "json";
     XHR.send(formData);
   });
- };
- 
- window.addEventListener('turbo:load', post);
+};
+
+window.addEventListener('turbo:load', post);
